@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "this app let's you add burgers to a list to be devoured",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blair221/burger.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "express",
+    "handlebars"
+  ],
+  "author": "Blair Brownlie-Edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blair221/burger/issues"
+  },
+  "homepage": "https://github.com/Blair221/burger#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  }
+}
