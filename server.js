@@ -15,4 +15,4 @@ app.set('view engine', 'handlebars');
 
 app.listen(PORT, function (){
     console.log(`successfully connected on port ${PORT}`);
-})
+});
