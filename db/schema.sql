@@ -4,7 +4,7 @@ use burger_db;
 create table burgers (
     id integer auto_increment not null,
     burger_name varchar(50),
-    devoured boolean
-
+    devoured boolean,
+    createdAt timestamp,
     primary key (id)
 );
